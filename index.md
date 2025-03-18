@@ -22,6 +22,9 @@ title: Home
           <a href="https://scholar.google.com/citations?user=mEIsOuMAAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
             <img src="/assets/icons/scholar.svg" alt="Google Scholar">
           </a>
+          <a href="https://github.com/rahulg603" target="_blank" aria-label="GitHub">
+            <img src="/assets/icons/github.svg" alt="GitHub">
+          </a>
           <a href="/assets/cv.pdf" target="_blank" aria-label="CV">
             <img src="/assets/icons/cv.svg" alt="CV">
           </a>
