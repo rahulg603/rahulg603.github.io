@@ -1,0 +1,14 @@
+
+@import "variables";
+
+body::before {
+    content: "";
+    display: block;
+    height: 8px; // Adjust thickness as needed
+    width: 100%;
+    background-color: $accent-color; // Choose your color
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }

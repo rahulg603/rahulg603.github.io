@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body{% if page.layout == 'default' and page.title == 'Home' %} class="homepage"{% endif %}>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+  // Variables
+  $font-stack-body: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,Helvetica, Arial, sans-serif;
+  $font-stack-citation: 'Lora', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,Helvetica, Arial, sans-serif;
+  $font-stack-heading: 'Playfair Display', Georgia, serif;
+  $text-color: #2d3748;
+  $text-color-light: #718096;
+  $link-color: #EF6461;
+  //$background-color: #F5F1E3;
+  $background-color: #FFFFFF;
+  $sidebar-color: #FFFFFF;
+  $accent-color: #2176AE;
+  $container-width: 900px;
+  $border-radius: 8px;
+  $transition-speed: 0.3s;
+  $sidebar-width: 40vw;
+  $max-main-text-width: min(720px, 75%);
+  $picture-size: min(330px, 21vw);
+  $picture-size-mobile: min(330px, 25vw);
+  //$sidebar-color: darken($background-color, 1.5%);
+  $panel-margin: 2rem;  // Consistent margin for both panels
+  $content-to-divider: 3.5rem;  // Distance from content to the middle divider
+  $breakpoint-large: 1200px;
+  $breakpoint-medium: 992px;
+  $breakpoint-small: 768px;
+    
