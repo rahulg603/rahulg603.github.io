@@ -53,9 +53,9 @@ layout: page
 </div>
 
 <div class="publications">
+  <div class="subheading">Fellowships & Grants</div>
   <section class="papers" style="counter-reset: citation-counter 4; margin-bottom: 3.5rem">
     <div class="paper">
-      <div class="subheading">Fellowships & Grants</div>
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>NIH Ruth L. Kirschstein National Research Service Award (F30)</div>, <em>National Institute on Aging</em> (2021-2025)
       </div>
@@ -68,9 +68,9 @@ layout: page
     </div>
   </section>
 
+  <div class="subheading" style="margin-top: 0rem;">Academic Awards</div>
   <section class="papers" style="counter-reset: citation-counter 13">
     <div class="paper">
-      <div class="subheading" style="margin-top: 0rem;">Academic Awards</div>
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>Outstanding Student Poster Presentation</div>, <em>New England Society of General Internal Medicine</em> (2019)
       </div>
