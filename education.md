@@ -17,7 +17,7 @@ title: Training & fellowships
         <span>Doctor of Medicine (MD)</span>
         <span class="field">Health Sciences and Technology (HST)</span>
       </div>
-      <profile-para>Continued co-mentorship by Drs. Vamsi Mootha and Ben Neale. Led extensions of PhD thesis work alongside completiong of clinical training.</profile-para>
+      <profile-para>Continued co-mentorship by Drs. Vamsi Mootha and Ben Neale. Led extensions of PhD thesis work alongside completion of clinical training.</profile-para>
     </div>
     <div class="item">
       <div class="title">

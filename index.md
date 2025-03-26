@@ -36,7 +36,7 @@ title: Home
   <div class="main-content">
     <div class="main-content__container">
       <section class="about">
-        <p>I'm a final year MD/PhD student at Harvard Medical School applying into internal medicine. I'm passionate about learning intricate principles of how our cells work using human biology observed at large scale. Before this, I completed an undergraduate degree in Chemical Engineering at Penn.</p>
+        <p>I'm a final year MD/PhD student at Harvard Medical School. In June, I will be starting as an internal medicine intern at MGH in the Stanbury physician-scientist pathway. I'm passionate about learning intricate principles of how our cells work using human biology observed at large scale. Previously, I completed an undergraduate degree in Chemical Engineering at Penn.</p>
       </section>      
       <section>
         <h2>Research</h2>
