@@ -40,7 +40,7 @@ title: Home
       </section>      
       <section>
         <h2>Research</h2>
-        <p>I use genetics as a window into biological phenomena such as ALS, fatty liver disease, and mitochondrial dysfunction. See more about <a href="/education" class="nav-link">my training / fellowships</a> and <a href="/publications" class="nav-link">my publications</a>.</p>
+        <p>I use genetics as a window into biological phenomena such as mitochondrial dysfunction, ALS, and fatty liver disease. See more about <a href="/education" class="nav-link">my training / fellowships</a> and <a href="/publications" class="nav-link">my publications</a>.</p>
         <p>For my PhD, I worked with Vamsi Mootha and Ben Neale. I used statistical genetics across hundreds of thousands of people to ask about how mitochondria vary across people and its implications for aging, resulting in several discoveries:</p>
         <div style="padding-left: 2rem;">
           <ul>
@@ -49,7 +49,7 @@ title: Home
             <li>How does common disease heritability partition into organellar proteomes? (<a href="https://elifesciences.org/articles/68610">Notably more into the nucleus than the mitochondrion.</a>)</li>
           </ul>
         </div>
-        <p>I am fascinated by inter-individual differences and the mechanisms underlying them. Why do otherwise similar patients experience vastly different courses of disease? What governs tissue-specificity for diseases, and how can the same disease show different tissue manifestations across people? Answering these types of questions will yield new mechanisms governing human metabolism and biochemistry. To this end, human genetics combined with clever, tissue-specific molecular phenotyping shows huge promise.</p>
+        <p>I am fascinated by inter-individual differences and the mechanisms underlying them. Why do otherwise similar patients experience different courses of disease? What governs tissue-specificity for disease, and how can the same disease show different tissue manifestations across people? Answering these questions will yield new mechanisms governing human metabolism and biochemistry. To this end, human genetics combined with clever, tissue-specific molecular phenotyping shows huge promise.</p>
       </section>
       <section>
         <h2>Other Projects & More</h2>
