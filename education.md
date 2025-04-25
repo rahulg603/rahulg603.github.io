@@ -64,9 +64,6 @@ title: Training & fellowships
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>Paul and Daisy Soros Fellowship for New Americans – Finalist</div> (2021)
       </div>
-      <div class="citation" style="padding-bottom: 0.25rem">
-        <div class='awname'>NDSEG Fellowship Program – Waitlist</div>, <em>Department of Defense</em> (2021)
-      </div>
     </div>
   </section>
 
