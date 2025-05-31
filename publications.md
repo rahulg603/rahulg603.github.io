@@ -16,6 +16,14 @@ title: Publications & talks
         Representative papers are highlighted. * indicates co-first author.
         </div>
 
+      <h3>2025</h3>
+      
+      <div class="citation highlighted">
+        <div class="title">Mechanism of age-related accumulation of mitochondrial DNA mutations in human blood.</div>
+        <div class="authors"><strong>Gupta R</strong>, Durham TJ, Chau G, Uddin MM, Lu W, Karczewski KJ, Howrigan D, et al.</div>
+        <em>bioRxiv</em>, 2025
+      </div>
+
       <h3>2024</h3>
       
       <div class="citation highlighted">
