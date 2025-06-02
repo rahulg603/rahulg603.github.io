@@ -36,7 +36,7 @@ title: Home
   <div class="main-content">
     <div class="main-content__container">
       <section class="about">
-        <p>I an incoming internal medicine intern at MGH in the Stanbury physician-scientist pathway. I'm passionate about learning intricate principles of how our cells work using human biology observed at large scale. Previously, I completed an undergraduate degree in Chemical Engineering at Penn and my MD/PhD at Harvard Medical School.</p>
+        <p>I am an incoming internal medicine intern at MGH in the Stanbury physician-scientist pathway. I'm passionate about learning intricate principles of how our cells work using human biology observed at large scale. Previously, I completed an undergraduate degree in Chemical Engineering at Penn and my MD/PhD at Harvard Medical School.</p>
       </section>      
       <section>
         <h2>Research</h2>
