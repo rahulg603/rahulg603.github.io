@@ -54,7 +54,7 @@ title: Home
       <section>
         <h2>Other Projects & More</h2>
         <p>When I'm not debating the various takes on the state of the world, I also love cycling and <a href="https://flic.kr/s/aHBqjC5iPE">taking pictures</a>, particularly from very high up. I currently live in Cambridge, MA with my fiancée Carla.</p>
-        <p>Watch this space for a blog which will be going live soon!</p> 
+        <p>A few friends (who happen to be MD/PhD classmates) and I have recently <a href="www.emergentpropertiesblog.com">started a blog</a> as an excuse to riff on our varied perspectives on science, medicine, and more.</p>
       </section>
 
     </div>
