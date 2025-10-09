@@ -36,12 +36,12 @@ title: Home
   <div class="main-content">
     <div class="main-content__container">
       <section class="about">
-        <p>I am an incoming internal medicine intern at MGH in the Stanbury physician-scientist pathway. I'm passionate about learning intricate principles of how our cells work using human biology observed at large scale. Previously, I completed an undergraduate degree in Chemical Engineering at Penn and my MD/PhD at Harvard Medical School.</p>
+        <p>I am an internal medicine intern at MGH in the Stanbury physician-scientist pathway. I'm passionate about learning intricate principles of how our cells work using human biology observed at large scale. Previously, I completed an undergraduate degree in Chemical Engineering at Penn and my MD/PhD at Harvard Medical School.</p>
       </section>      
       <section>
         <h2>Research</h2>
         <p>I use genetics as a window into biological phenomena such as mitochondrial dysfunction, ALS, and fatty liver disease. See more about <a href="/education" class="nav-link">my training / fellowships</a> and <a href="/publications" class="nav-link">my publications</a>.</p>
-        <p>For my PhD, I worked with Vamsi Mootha and Ben Neale. I used statistical genetics across hundreds of thousands of people to ask about how mitochondria vary across people and its implications for aging, resulting in several discoveries:</p>
+        <p>For my PhD, I worked with Vamsi Mootha and Ben Neale. I used statistical genetics across hundreds of thousands of people to learn how mitochondria vary across people and its implications for aging, resulting in several discoveries:</p>
         <div style="padding-left: 2rem;">
           <ul>
             <li>Is there nuclear genetic control over common mitochondrial DNA mutations? (<a href="https://www.nature.com/articles/s41586-023-06426-5">Yes!</a>)</li>
@@ -53,8 +53,8 @@ title: Home
       </section>
       <section>
         <h2>Other Projects & More</h2>
-        <p>When I'm not debating the various takes on the state of the world, I also love cycling and <a href="https://flic.kr/s/aHBqjC5iPE">taking pictures</a>, particularly from very high up. I currently live in Cambridge, MA with my fiancée Carla.</p>
-        <p>A few friends (who happen to be MD/PhD classmates) and I have recently <a href="https://emergentpropertiesblog.com">started a blog</a> as an excuse to riff on our varied perspectives on science, medicine, and more.</p>
+        <p>When I'm not debating the state of the world, I also love cycling and <a href="https://flic.kr/s/aHBqjC5iPE">taking pictures</a>, particularly from very high up. I currently live in Cambridge, MA with my fiancée Carla.</p>
+        <p>A few friends (who happen to be MD/PhD classmates) and I have a blog, <a href="https://emergentpropertiesblog.com">Emergent Properties</a>, as an excuse to riff on our varied perspectives on science, medicine, and more.</p>
       </section>
 
     </div>
