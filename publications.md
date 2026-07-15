@@ -16,13 +16,15 @@ title: Publications & talks
         Representative papers are highlighted. * indicates co-first author.
         </div>
 
-      <h3>2025</h3>
+      <h3>2026</h3>
       
       <div class="citation highlighted">
         <div class="title">Mechanism of age-related accumulation of mitochondrial DNA mutations in human blood.</div>
-        <div class="authors"><strong>Gupta R</strong>, Durham TJ, Chau G, Uddin MM, Lu W, Karczewski KJ, Howrigan D, et al.</div>
-        <em>bioRxiv</em>, 2025
+        <div class="authors"><strong>Gupta R</strong>, Durham TJ, Chau G, Uddin MM, Lu W, Argentieri MA, Karczewski KJ, et al.</div>
+        <em>Nature</em>, 2026
       </div>
+
+      <h3>2025</h3>
 
       <div class="citation highlighted">
         <div class="title">Pan-UK Biobank GWAS improves discovery, analysis of genetic architecture, and resolution into ancestry-enriched effects.</div>
@@ -132,8 +134,14 @@ title: Publications & talks
 
   <div class="subheading" style="margin-top: 3rem;">Talks</div>
 
-  <section class="papers" style="counter-reset: citation-counter 10">
+  <section class="papers" style="counter-reset: citation-counter 12">
     <div class="paper">
+      <div class="citation" style="padding-bottom: 0.25rem">
+        Mechanism of age-related accumulation of mitochondrial DNA mutations. <em>Mass General Brigham Medicine Grand Rounds</em>. <strong>Oral presentation</strong>. 2026.
+      </div>
+      <div class="citation" style="padding-bottom: 0.25rem">
+        Mechanism of age-related accumulation of mitochondrial DNA mutations. <em>Broad Institute Medical and Population Genetics Retreat</em>. <strong>Oral presentation</strong>. 2026.
+      </div>
       <div class="citation" style="padding-bottom: 0.25rem">
         Uncovering mechanisms driving mtDNA variation across 750,000 people. <em>Freedom Together Foundation Annual Meeting</em>. <strong>Plenary session</strong>. 2025.
       </div>

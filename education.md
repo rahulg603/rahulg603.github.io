@@ -56,7 +56,7 @@ title: Training & fellowships
 
 <div class="publications">
   <div class="subheading">Fellowships & Grants</div>
-  <section class="papers" style="counter-reset: citation-counter 4; margin-bottom: 3.5rem">
+  <section class="papers" style="counter-reset: citation-counter 3; margin-bottom: 3.5rem">
     <div class="paper">
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>NIH Ruth L. Kirschstein National Research Service Award (F30)</div>, <em>National Institute on Aging</em> (2021-2025)
