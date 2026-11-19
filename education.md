@@ -1,13 +1,30 @@
 ---
 layout: default
-title: Training & fellowships
+title: Training & Awards
+description: "Education, fellowships and awards of Rahul Gupta, MD, PhD, including a Harvard MD/PhD, an NIH F30 fellowship, and the 2026 STAT Wunderkind award."
 ---
 
 <div class="profile">
   <section>
-    <h1 class="profile-title">Training & Awards</h1>
-    <p>See more information on my publications and talks <a href="/publications">here</a>. Read more about the below as well as posters I've presented in <a href="/assets/cv.pdf">my CV.</a></p>
+    <div class="title-row">
+      <div class="title-row__inner">
+        <a href="/" class="back-link" aria-label="Back to home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a>
+        <h1 class="profile-title">Training & Awards</h1>
+      </div>
+    </div>
+    <p>See more information on my publications and talks <a href="/publications.html">here</a>. Read more about the below as well as posters I've presented in <a href="/assets/cv.pdf">my CV.</a></p>
     <div class="profile-subheading">Education & Training</div>
+    <div class="item">
+      <div class="title">
+        <span>Massachusetts General Hospital</span>
+        <span class="date">2025 - present</span>
+      </div>
+      <div class="degree">
+        <span>Residency</span>
+        <span class="field">Internal Medicine, Stanbury Pathway</span>
+      </div>
+      <profile-para>Currently completing medical residency in internal medicine at MGH as part of the Stanbury Physician-Scientist Pathway. In parallel, continuing to work on biobank-scale analyses of mitochondrial traits, including of somatic mtDNA variation.</profile-para>
+    </div>
     <div class="item">
       <div class="title">
         <span>Harvard Medical School</span>
@@ -28,7 +45,7 @@ title: Training & fellowships
         <span>Doctor of Philosophy (PhD)</span>
         <span class="field">Genetics and Genomics</span>
       </div>
-      <profile-para>Co-mentored by Drs. Vamsi Mootha and Ben Neale. My thesis work focused on using human genetics at biobank scale to understand the mechanisms of mitochondrial DNA variation across people as well as the evidence supporting a role for mitochondrial dysfunction in aging disease.</profile-para>
+      <profile-para>Co-mentored by Drs. Vamsi Mootha and Ben Neale. My thesis work focused on using human genetics at biobank scale to understand the mechanisms of mitochondrial DNA variation across people as well as the evidence supporting a role for mitochondrial dysfunction in aging and disease.</profile-para>
     </div>
     <div class="item">
       <div class="title">
@@ -56,7 +73,7 @@ title: Training & fellowships
 
 <div class="publications">
   <div class="subheading">Fellowships & Grants</div>
-  <section class="papers" style="counter-reset: citation-counter 3; margin-bottom: 3.5rem">
+  <section class="papers" style="counter-reset: citation-counter 3; margin-bottom: 2.8rem">
     <div class="paper">
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>NIH Ruth L. Kirschstein National Research Service Award (F30)</div>, <em>National Institute on Aging</em> (2021-2025)
@@ -68,8 +85,11 @@ title: Training & fellowships
   </section>
 
   <div class="subheading" style="margin-top: 0rem;">Academic Awards</div>
-  <section class="papers" style="counter-reset: citation-counter 13">
+  <section class="papers" style="counter-reset: citation-counter 14">
     <div class="paper">
+      <div class="citation" style="padding-bottom: 0.25rem">
+        <div class='awname'><a href="https://www.statnews.com/wunderkinds/rahul-gupta/">STAT Wunderkind</a></div>, <em>STAT News</em> (2026)
+      </div>
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>Outstanding Student Poster Presentation</div>, <em>New England Society of General Internal Medicine</em> (2019)
       </div>
@@ -89,7 +109,7 @@ title: Training & fellowships
         <div class='awname'>Senior Delaware Valley Section Award</div>, <em>Delaware Valley Section, AIChE</em> (2016)
       </div>
       <div class="citation" style="padding-bottom: 0.25rem">
-        <div class='awname'>President's Innovation Prize – Semifinalist</div>, awarded for "Diagnosis of malaria in low-resource settings with AmpliTest", <em>UPenn</em> (2016).
+        <div class='awname'>President's Innovation Prize – Semifinalist</div>, awarded for "Diagnosis of malaria in low-resource settings with AmpliTest", <em>UPenn</em> (2016)
       </div>
       <div class="citation" style="padding-bottom: 0.25rem">
         <div class='awname'>Donald F. & Mildred Topp Othmer Scholarship Award</div>, <em>AIChE National</em> (2015)

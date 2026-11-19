@@ -21,17 +21,37 @@
 title: Rahul Gupta
 email: rahulg603@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Rahul Gupta's profile
+  Rahul Gupta, MD, PhD is a medicine resident at MGH and physician-scientist
+  at the Broad Institute using human genetics to study mitochondria, aging,
+  and disease.
+tagline: "MD, PhD · Medical resident & scientist, MGH & Broad"
+author:
+  name: Rahul Gupta
+  twitter: rahulg603
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "gupta.bio" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gupta.bio" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rahulg603
 github_username:  rahulg603
+twitter:
+  username: rahulg603
+  card: summary
+
+# Default social share image for every page
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/cropped_1E982D74-C3B6-4626-9876-CCC5CF17A825.JPG
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - index_old.md
 
 sass:
   sass_dir: _sass

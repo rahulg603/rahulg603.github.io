@@ -1,10 +1,16 @@
 ---
 layout: default
-title: Publications & talks
+title: Publications & Talks
+description: "Papers and talks by Rahul Gupta, MD, PhD on mitochondrial DNA, statistical genetics, aging, and more."
 ---
 
 <div class="publications">
-  <h1 class="page-title">Publications & Talks</h1>
+  <div class="title-row">
+    <div class="title-row__inner">
+      <a href="/" class="back-link" aria-label="Back to home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a>
+      <h1 class="page-title">Publications & Talks</h1>
+    </div>
+  </div>
   <p>For more detailed (and possibly more up-to-date) information, check out my <a href="https://scholar.google.com/citations?user=mEIsOuMAAAAJ&hl=en">Google Scholar</a>. Read more about the below, as well as posters I've presented, in <a href="/assets/cv.pdf">my CV.</a></p>
 
   <div class="subheading">Papers</div>
