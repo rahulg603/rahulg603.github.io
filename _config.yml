@@ -50,8 +50,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Jekyll 3 (GitHub Pages) replaces its default exclude list with this one, so the defaults are repeated here
 exclude:
   - index_old.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
 
 sass:
   sass_dir: _sass

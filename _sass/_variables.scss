@@ -24,5 +24,5 @@
   $breakpoint-small: 768px;
   // Subpage title size on phones: shrinks so "Publications & Talks" (~9.6em wide) fits on one line
   // beside the back button (7rem = page padding + button + gap). Section headings scale from it.
-  $title-size-mobile: min(3rem, calc((100vw - 7rem) / 9.8));
+  $title-size-mobile: unquote("min(3rem, calc((100vw - 7rem) / 9.8))"); // unquote: LibSass on GitHub Pages cannot evaluate min() with calc()
     

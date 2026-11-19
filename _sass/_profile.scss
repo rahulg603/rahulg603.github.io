@@ -33,7 +33,7 @@
 
         // Stay smaller than the shrunken page title on phones
         @media (max-width: $breakpoint-small) {
-          font-size: min(1.95rem, calc(#{$title-size-mobile} * 0.8));
+          font-size: unquote("min(1.95rem, calc(#{$title-size-mobile} * 0.8))");
         }
       }
       
