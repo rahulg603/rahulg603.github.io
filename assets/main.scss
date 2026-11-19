@@ -68,6 +68,91 @@ html {
         background-color: rgba($link-color, 0.15);
       }
     }
+
+    // Round "<" button back to the homepage; same coral tint as nav-link
+    &.back-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 50%;
+      background-color: rgba($link-color, 0.075);
+      color: $link-color;
+
+      svg {
+        width: 1.1rem;
+        height: 1.1rem;
+        transition: transform $transition-speed ease;
+      }
+
+      &:hover {
+        background-color: rgba($link-color, 0.15);
+        color: darken($link-color, 15%);
+
+        svg {
+          transform: translateX(-2px);
+        }
+      }
+
+      &:focus-visible {
+        outline: 2px solid $accent-color;
+        outline-offset: 2px;
+      }
+    }
+  }
+
+  // Page title with the back button sitting just left of it; the title stays centered
+  .title-row {
+    text-align: center;
+    margin-bottom: 1.6rem;
+
+    &__inner {
+      position: relative;
+      display: inline-block;
+    }
+
+    // Title size; the back button is centered at this fraction of it from the top of the line,
+    // which is the optical middle of the letters (≈ middle of the cap height), not of the line box
+    --title-size: 3rem;
+    $title-text-ratio: 0.71;
+
+    h1 {
+      margin-bottom: 0 !important;
+      font-size: var(--title-size) !important;
+    }
+
+    .back-link {
+      position: absolute;
+      right: 100%;
+      top: calc(var(--title-size) * #{$title-text-ratio});
+      margin-right: 1rem;
+      transform: translateY(-50%);
+    }
+
+    // On phones: button beside the title in a row, and the title scales with the screen so it
+    // stays on one line
+    @media (max-width: $breakpoint-small) {
+      --title-size: #{$title-size-mobile};
+
+      &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+
+      h1 {
+        white-space: nowrap;
+      }
+
+      .back-link {
+        position: static;
+        flex-shrink: 0;
+        margin: calc(var(--title-size) * #{$title-text-ratio} - 1.125rem) 0 0;
+        transform: none;
+      }
+    }
   }
   
   // Main content

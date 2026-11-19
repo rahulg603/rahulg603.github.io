@@ -6,7 +6,7 @@
 
     .page-title {
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1.6rem;
         font-size: 3rem;
         color: $text-color;
     }
@@ -16,17 +16,22 @@
         background-color: $background-color;
         padding-bottom: 0.5rem;
         font-family: $font-stack-heading;
-        margin: 2rem 0 1rem;
+        margin: 2rem 0 0.75rem;
         line-height: 1.3;
         margin-top: 0;
         //color: darken($text-color, 10%);
-        font-size: 2.25rem;
+        font-size: 1.95rem;
         border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+        // Stay smaller than the shrunken page title on phones
+        @media (max-width: $breakpoint-small) {
+            font-size: min(1.95rem, calc(#{$title-size-mobile} * 0.8));
+        }
     }
 
     p {
-        margin-bottom: 1.5rem;
-        font-size: 1.05rem;
+        margin-bottom: 1.2rem;
+        font-size: 1.02rem;
         color: $text-color;
         }
 
@@ -34,15 +39,19 @@
         counter-reset: citation-counter 15;
 
         .paper {
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
 
             h3 {
                 font-family: $font-stack-heading;
-                font-size: 1.8rem;
+                font-size: 1.55rem;
                 color: $text-color;
-                margin-bottom: 1rem;
+                margin-bottom: 0.75rem;
                 padding-bottom: 0.5rem;
                 //border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+                @media (max-width: $breakpoint-small) {
+                    font-size: min(1.55rem, calc(#{$title-size-mobile} * 0.65));
+                }
             }
 
             .citation {
@@ -50,8 +59,8 @@
                 position: relative;
                 margin-bottom: 0rem;
                 line-height: 1.3;
-                font-size: 0.95rem;
-                padding: 0.75rem 0.75rem 0.75rem 3rem;
+                font-size: 0.92rem;
+                padding: 0.6rem 0.75rem 0.6rem 3rem;
                 border-radius: 4px;
                 transition: background-color 0.2s ease;
                 counter-increment: citation-counter -1;
@@ -115,7 +124,7 @@
                 .citations {
                     display: block;
                     margin-top: 0.1rem;
-                    font-size: 0.9rem;
+                    font-size: 0.87rem;
                     margin-bottom: 0rem;
                     color: $text-color-light;
                 }

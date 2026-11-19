@@ -1,14 +1,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Lora:wght@300;400;500;700&family=Playfair+Display:wght@700&family=Source+Serif+Pro:wght@400;600&family=IBM+Plex+Serif:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    {% if page.url == '/' %}
+    {%- comment -%} Homepage: tab title is "name | tagline"; page.title ("Rahul Gupta, MD, PhD") is the share title {%- endcomment %}
+    <title>{{ site.title | escape }} | {{ site.tagline | escape }}</title>
+    {% seo title=false %}
+    {% else %}
     {% seo %}
+    {% endif %}
+    {% if page.url == '/' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Rahul Gupta",
+        "honorificSuffix": "MD, PhD",
+        "jobTitle": "Physician-scientist",
+        "url": "{{ site.url }}/",
+        "image": "{{ '/assets/images/cropped_1E982D74-C3B6-4626-9876-CCC5CF17A825.JPG' | absolute_url }}",
+        "affiliation": [
+          {"@type": "Hospital", "name": "Massachusetts General Hospital"},
+          {"@type": "ResearchOrganization", "name": "Broad Institute of MIT and Harvard"}
+        ],
+        "alumniOf": [
+          {"@type": "CollegeOrUniversity", "name": "Harvard Medical School"},
+          {"@type": "CollegeOrUniversity", "name": "University of Pennsylvania"}
+        ],
+        "knowsAbout": ["Mitochondrial genetics", "Statistical genetics", "Aging", "Fatty liver disease"],
+        "award": "STAT Wunderkind (2026)",
+        "sameAs": [
+          "https://scholar.google.com/citations?user=mEIsOuMAAAAJ",
+          "https://github.com/rahulg603",
+          "https://bsky.app/profile/rahulg603.bsky.social",
+          "https://twitter.com/rahulg603",
+          "https://www.statnews.com/wunderkinds/rahul-gupta/"
+        ]
+      }
+    }
+    </script>
+    {% endif %}
     {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}

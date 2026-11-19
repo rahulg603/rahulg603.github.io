@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: Rahul Gupta, MD, PhD
+description: "Rahul Gupta, MD, PhD is a medicine resident at MGH and physician-scientist at the Broad Institute using human genetics to study mitochondria, aging, and disease."
 ---
 
 <div class="homepage-layout">
@@ -40,7 +41,7 @@ title: Home
       </section>      
       <section>
         <h2>Research</h2>
-        <p>I use genetics as a window into biological phenomena such as mitochondrial dysfunction, ALS, and fatty liver disease. See more about <a href="/education" class="nav-link">my training / fellowships</a> and <a href="/publications" class="nav-link">my publications</a>.</p>
+        <p>I use genetics as a window into biological phenomena such as mitochondrial dysfunction, ALS, and fatty liver disease. See more about <a href="/education.html" class="nav-link">my training / fellowships</a> and <a href="/publications.html" class="nav-link">my publications</a>.</p>
         <p>For my PhD, I worked with Vamsi Mootha and Ben Neale. I used statistical genetics across hundreds of thousands of people to learn how mitochondria vary across people and its implications for aging, resulting in several discoveries:</p>
         <div style="padding-left: 2rem;">
           <ul>
@@ -53,7 +54,7 @@ title: Home
       </section>
       <section>
         <h2>Other Projects & More</h2>
-        <p>When I'm not debating the state of the world, I also love cycling and <a href="https://flic.kr/s/aHBqjC5iPE">taking pictures</a>, particularly from very high up. I currently live in Cambridge, MA with my fiancée Carla.</p>
+        <p>When I'm not debating the state of the world, I also love cycling and <a href="https://flic.kr/s/aHBqjC5iPE">taking pictures</a>, including from very high up. I currently live in Cambridge, MA with my wife Carla.</p>
         <p>A few friends (who happen to be MD/PhD classmates) and I have a blog, <a href="https://emergentpropertiesblog.com">Emergent Properties</a>, as an excuse to riff on our varied perspectives on science, medicine, and more.</p>
       </section>
 
